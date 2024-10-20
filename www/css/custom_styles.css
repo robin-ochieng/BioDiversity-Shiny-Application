@@ -1,0 +1,65 @@
+/* Splash Screen Style */
+#splashScreen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10000; 
+}
+
+.fadeOut {
+  animation: fadeOutAnimation 0.5s;
+  animation-fill-mode: forwards; 
+}
+
+@keyframes fadeOutAnimation {
+  from { opacity: 1; }
+  to { opacity: 0; visibility: hidden; }
+}
+
+.right-logo {
+  margin-left: auto;  
+}
+
+.navbar-brand img {
+  height: 5px; 
+  width: 5px; 
+  vertical-align: middle;
+}
+
+.popup-img {
+  height: 50px;
+  width: auto;
+  margin-bottom: 5px;
+}
+
+.popup {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #333;
+}
+
+
+.species-selector-container {
+  background-color: #f9f9f9;  /* Light grey background */
+  border: 1px solid #ddd;     /* Light grey border */
+  border-radius: 8px;         /* Rounded corners */
+  padding: 20px;              /* Padding around the content */
+  margin: 20px auto;          /* Centering the box with margin */
+  width: 80%;                 /* Appropriate width */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);  /* Subtle shadow */
+}
+
+/* Additional style to enhance the dropdown/input elements inside the container */
+.species-selector-container .selectize-input,
+.species-selector-container input {
+  border: 1px solid #ccc;     /* Grey border for inputs */
+  border-radius: 4px;         /* Rounded corners for inputs */
+  padding: 8px 10px;          /* Padding inside inputs */
+}
+

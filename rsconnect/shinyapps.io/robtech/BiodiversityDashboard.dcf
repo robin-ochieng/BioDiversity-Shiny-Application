@@ -1,0 +1,12 @@
+name: BiodiversityDashboard
+title: BiodiversityDashboard
+username: robtech
+account: robtech
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 12472751
+bundleId: 8999356
+url: https://robtech.shinyapps.io/BiodiversityDashboard/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
